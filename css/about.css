@@ -1,0 +1,116 @@
+
+  .main11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+.dynamic_Text{
+  color:red;
+  font-size: 50px;
+  font-weight: 700;
+}
+.who{
+
+  color:gray;
+  font-size: 50px;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.my_info{
+  width: 50%;
+  color:black;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(251, 246, 246);
+  box-shadow: 0 4px 8px rgba(0, 0,0,7);
+  font-weight: 520px;
+   
+}
+
+
+
+.main22{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dynamic_edu{
+  color:red;
+  font-size:50px;
+}
+
+.Edu_title{
+  font-size: 50px;
+  color:gray;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+
+}
+.Edu_info{
+  width: 50%;
+  color:black;
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 40px;
+  letter-spacing: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(251, 246, 246);
+  box-shadow: 0 4px 8px rgba(0, 0,0,7);
+  font-weight: 520px;
+   
+}
+.Edu_info p {
+  text-align: center;
+}
+main{
+  margin-top: 70px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer{
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 991px) {
+.main11{
+flex-direction: column;
+}
+.main22{
+flex-direction: column;
+}
+.my_info{
+  margin-bottom: 40px;
+  width: 90%;
+}
+.Edu_info{
+  margin-bottom: 40px;
+  width: 90%;
+}
+.who{
+  margin-bottom: 40px;
+  width: 95%;
+}
+.Edu_title{
+  margin-bottom: 40px;
+  width: 80%;
+}
+
+  }
+   
